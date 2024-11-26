@@ -1,0 +1,111 @@
+body {
+    padding-top: 0;
+    padding-bottom: 3em;
+    background-color: #f7fafa !important;
+    position: relative;
+    min-height: 100vh;
+}
+
+#miCuenta{
+    text-decoration: none; 
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+#CerrarS{
+    text-decoration: none; 
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.panel{
+    margin-top: 20px;
+    /* background-color: rgb(64, 165, 221); */
+    height: 300px;
+    border-radius: 30px;
+    color: white;
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    transition: all 0.3s ease; /* Transición para el cambio de tamaño y color */
+    cursor: pointer; 
+    text-decoration: none;
+}
+
+/* Estilos de hover predeterminados */
+.panel:hover {
+    /* background-color: rgb(75, 192, 243); */
+    transform: scale(1.05);
+    border: none;
+}
+
+#panel{
+    background-color: rgb(64, 165, 221);
+}
+
+/* Estilos de hover predeterminados */
+#panel:hover {
+    background-color: rgb(75, 192, 243);
+}
+
+#panel2{
+    background-color: #534a7f;
+}
+
+/* Estilos de hover predeterminados */
+#panel2:hover {
+    background-color: #645999;
+}
+
+#panel3{
+    background-color:  #d75d86;
+}
+
+/* Estilos de hover predeterminados */
+#panel3:hover {
+    background-color:  #f66c9a;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media (min-width: 769px) and (max-width: 1400px) {
+    .panel {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 0;
+        padding-bottom: 170px;
+        background-color: rgb(255, 255, 255) !important;
+        position: relative;
+        min-height: 100vh;
+    }
+
+    .panel {
+        height: 200px; /* Cambiar altura a automático para que se ajuste al contenido */
+    }
+    #footer{
+        height: auto;
+    }
+    
+}
